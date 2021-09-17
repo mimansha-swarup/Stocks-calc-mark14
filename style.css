@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
-:root {
-    --primary-backgroundcolor: white;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+nav{
+    background-color: #00AF9C;
+    color: white;
+    font-size: 2rem;
+    padding: 1.5rem;
+    /* margin-bottom: 3rem; */
 }
 
+
 body {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
     margin: 0rem;
     background-color: #374151;
     margin: 0;
@@ -14,15 +19,19 @@ body {
 #heading1 {
     text-align: center;
     color: #fff;
+    margin-bottom: 3rem ;
+    font-size: 2.75rem;
+    
+
 }
 
 .main-div {
-    color: var(--primary-backgroundcolor);
-    margin: auto;
+    color: white;
+    margin: 4rem auto;
     max-width: 40%;
     height: auto;
     border-style: solid;
-    border-color: var(--primary-backgroundcolor);
+    border-color: white;
     font-size: 25px;
     font-style: italic;
     padding: 1rem;
@@ -69,6 +78,9 @@ body {
 .stockdiv {
     margin: 1.5rem auto;
     width: fit-content;
+    font-size: 1.35rem;
+    /* text-align: right; */
+    align-items: flex-start;
 }
 
 input {
@@ -83,9 +95,11 @@ input {
  
 }
 
-.checkButton {
-    text-align: center;
+#check {
+    /* text-align: center; */
     padding: 1rem;
+    width: 100%;
+    border: none;
 }
 
 button {
