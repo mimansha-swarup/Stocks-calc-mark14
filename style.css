@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+:root {
+    --primary-backgroundcolor: white;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+    margin: 0rem;
+    background-color: #374151;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#heading1 {
+    text-align: center;
+    color: #fff;
+}
+
+.main-div {
+    color: var(--primary-backgroundcolor);
+    margin: auto;
+    max-width: 40%;
+    height: auto;
+    border-style: solid;
+    border-color: var(--primary-backgroundcolor);
+    font-size: 25px;
+    font-style: italic;
+    padding: 1rem;
+}
+
+.result-div {
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    font-family: monospace;
+}
+
+.footer {
+    position: relative;
+    background-color: #00AF9C;
+    padding: 2rem 0rem;
+    text-align: center;
+    color: var(--primary-light);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer .link1 {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+    display: flex;
+}
+
+.footer li {
+    margin: 1rem;
+}
+
+.stockdiv {
+    margin: 1.5rem auto;
+    width: fit-content;
+}
+
+input {
+    cursor: pointer;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: hidden;
+    outline: none;
+    align-self: right;
+ 
+}
+
+.checkButton {
+    text-align: center;
+    padding: 1rem;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+    font-weight: bolder;
+    border-radius: .5rem;
+    cursor: pointer;
+    /* border: none; */
+    background-color: #00AF9C;
+}
+
+.list-non-bullet {
+    list-style: none;
+    text-decoration: none;
+}
+
+.list-item-inline {
+    display: inline;
+}
