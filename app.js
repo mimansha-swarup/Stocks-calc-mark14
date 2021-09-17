@@ -34,20 +34,21 @@ checkButton.addEventListener("click", (e) => {
 
         outputDiv.innerHTML = `<div class="result-div" style="width:100%"><h1>Your Profit is ${profitPercent}% and that is rupees ${profit}</h1></div>`;
 
-        if (profitPercent > 50) {
-            document.body.style.backgroundColor = "green";
-        }
+        document.body.style.backgroundColor = "green";
+        // if (profitPercent > 50) {
+        //     document.body.style.backgroundColor = "green";
+        // }
 
     } else {
         const loss = (purchasePriceNum - currentPriceNum) * stockQuantityNum;
-        document.body.style.backgroundColor = "red";
+        document.body.style.backgroundColor = "#ED182D";
         const lossPercentage = ((purchasePriceNum - currentPriceNum) * 100 / purchasePriceNum);
 
         outputDiv.innerHTML = `<div class="result-div" style="width:100%"><h1>Ohh you have a Loss of ${lossPercentage}% and that is rupees ${loss}</h1></div>`;
 
 
         if (lossPercentage > 50) {
-            document.body.style.backgroundColor = "orange";
+            document.body.style.backgroundColor = "#9C1422";
         }
     }
 })
